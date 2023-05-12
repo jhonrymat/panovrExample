@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tour apprev="18105" start="node4" appversion="6.1.14">
   <panorama id="node4">
-    <input levelingpitch="0" height="1520" width="1520" leveltilesize="510" overlap="1" levelbiashidpi="1.000" levelbias="0.400" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0">
+    <input levelingpitch="0" height="1520" width="1520" leveltilesize="1024" overlap="1" levelbiashidpi="1.000" levelbias="0.400" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0">
       <level predecode="0" height="1520" width="1520" preload="0"/>
-      <level predecode="0" height="760" width="760" preload="0"/>
-      <level predecode="1" height="380" width="380" preload="1"/>
+      <level predecode="1" height="760" width="760" preload="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="0" fovmode="0">
@@ -14,10 +13,10 @@
       <max scaletofit="1" fov="120" fovfisheye="360" pan="360" fovstereographic="270" tilt="90"/>
     </view>
     <userdata latitude="4.139194" datetime="15-03-2023 13:50" copyright="" longitude="-73.634611" nodeid="node4" comment="" altitude="493.00" info="" description="" source="" tags="wetransfer_imagenes-360_2023-05-12_1419" title="IMG_20230315_135012_00_093.insp" author="" heading="0" customnodeid=""/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label textcolor="0x000000" wordwrap="1" border="1" height="20" bordercolor="0x000000" backgroundalpha="1" width="180" backgroundcolor="0xffffff" background="1" textalpha="1" borderalpha="1" borderradius="1" enabled="1"/>
+    <hotspots wordwrap="1" height="0" width="180">
+      <label textcolor="0x000000" wordwrap="1" border="1" height="0" bordercolor="0x000000" backgroundalpha="1" width="180" backgroundcolor="0xffffff" background="1" textalpha="1" borderalpha="1" borderradius="1" enabled="1"/>
       <polystyle bordercolor="0x0000ff" backgroundalpha="0.25098" backgroundcolor="0x0000ff" handcursor="1" mode="0" borderalpha="1"/>
-      <polyhotspot id="Poly01" target="_parent" url="https://www.redesinalambricas.es/tipos-de-wifi/" description="De hecho, existen diferentes tipos de conexiones detrás de la etiqueta de Wi-Fi, y todo tipo de siglas para los diferentes tipos de redes WiFi" title="tipos de wifi en la institucion">
+      <polyhotspot id="Poly01" target="_blank" url="https://www.redesinalambricas.es/tipos-de-wifi/" description="De hecho, existen diferentes tipos de conexiones detrás de la etiqueta de Wi-Fi, y todo tipo de siglas para los diferentes tipos de redes WiFi" title="tipos de wifi en la institucion">
         <polystring>-253.68/28.05|-252.75/9.46|-295.23/9.23|-295.91/24.3</polystring>
       </polyhotspot>
       <polyhotspot id="Poly02" target="22.7/-0.9/100.0" url="{node3}" description="se movio un poco la camara" title="2 metro adelante">
@@ -25,11 +24,14 @@
       </polyhotspot>
     </hotspots>
     <media>
-      <video id="Element01" fov="34.412" pan="-57.120" roty="28.000" stretch="1.000" height="100" mode="3" field="90.000" loop="1" rotx="3.000" nodechangekeep="0" pansize="10.000" handcursor="0" tiltsize="10.000" startmutedmobile="0" rotz="-1.000" tilt="10.090" ambientlevel="0.000" width="100" level="1.000" clickmode="0">
+      <video id="Element01" fov="34.410" pan="-57.120" roty="28.000" stretch="1.000" poster="media/intro videojuego 1.png" height="100" mode="3" field="90.000" loop="1" rotx="3.000" nodechangekeep="0" pansize="10.000" handcursor="0" tiltsize="10.000" startmutedmobile="0" rotz="-1.000" tilt="10.090" ambientlevel="0.000" width="100" level="1.000" clickmode="2">
         <source url="media/extintores_1 (1).mp4"/>
+        <source url="media/bienvenida e instrucciones de uso .mp4"/>
       </video>
-      <image id="Element02" fov="30.000" rotx="0.000" height="780" width="982" handcursor="0" pan="-343.420" roty="0.000" rotz="0.000" tilt="4.630" clickmode="0" stretch="1.000">
+      <image id="Element02" fov="30.000" rotx="0.000" height="780" width="982" handcursor="0" pan="-343.420" roty="0.000" rotz="0.000" tilt="4.630" clickmode="4" stretch="1.000">
+        <source url="media/10630066.jpg"/>
         <source url="media/intro videojuego 1.png"/>
+        <source url="media/A.png"/>
       </image>
     </media>
     <transition zoomspeed="2" zoomafteroutfov="20" type="crossdissolve" zoomout="0" zoomfov="20" zoomoutpause="1" blendtime="1" blendcolor="0x000000" softedge="0" zoomafterinfov="90" enabled="1" zoomin="0"/>
@@ -37,13 +39,12 @@
     <soundstransition crossfade="0" enabled="1" transitiontime="2"/>
     <flyintransition speed="2.00" enabled="1"/>
     <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control rubberband="0" hideabout="0" sensitivity="8" lockedkeyboardzoom="0" invertwheel="0" contextprojections="0" speedwheel="1" contextfullscreen="1" lockedwheel="0" invertcontrol="1" dblclickfullscreen="0" contextvr="1" lockedkeyboard="0" lockedmouse="0" simulatemass="1"/>
+    <control rubberband="0" hideabout="0" sensitivity="8" lockedkeyboardzoom="0" invertwheel="0" contextprojections="1" speedwheel="1" contextfullscreen="1" lockedwheel="0" invertcontrol="1" dblclickfullscreen="0" contextvr="1" lockedkeyboard="0" lockedmouse="0" simulatemass="1"/>
   </panorama>
   <panorama id="node3">
-    <input levelingpitch="0" height="1520" width="1520" leveltilesize="510" overlap="1" levelbiashidpi="1.000" levelbias="0.400" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0">
+    <input levelingpitch="0" height="1520" width="1520" leveltilesize="1024" overlap="1" levelbiashidpi="1.000" levelbias="0.400" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0">
       <level predecode="0" height="1520" width="1520" preload="0"/>
-      <level predecode="0" height="760" width="760" preload="0"/>
-      <level predecode="1" height="380" width="380" preload="1"/>
+      <level predecode="1" height="760" width="760" preload="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="0" fovmode="0">
@@ -53,15 +54,15 @@
       <max scaletofit="1" fov="120" fovfisheye="360" pan="360" fovstereographic="270" tilt="90"/>
     </view>
     <userdata latitude="4.139139" datetime="15-03-2023 13:50" copyright="" longitude="-73.634611" nodeid="node3" comment="" altitude="494.40" info="" description="" source="" tags="wetransfer_imagenes-360_2023-05-12_1419" title="IMG_20230315_135058_00_094.insp" author="" heading="0" customnodeid=""/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label textcolor="0x000000" wordwrap="1" border="1" height="20" bordercolor="0x000000" backgroundalpha="1" width="180" backgroundcolor="0xffffff" background="1" textalpha="1" borderalpha="1" borderradius="1" enabled="1"/>
+    <hotspots wordwrap="1" height="0" width="180">
+      <label textcolor="0x000000" wordwrap="1" border="1" height="0" bordercolor="0x000000" backgroundalpha="1" width="180" backgroundcolor="0xffffff" background="1" textalpha="1" borderalpha="1" borderradius="1" enabled="1"/>
       <polystyle bordercolor="0x0000ff" backgroundalpha="0.25098" backgroundcolor="0x0000ff" handcursor="1" mode="0" borderalpha="1"/>
       <hotspot id="Point01" target="-157.7/-21.6/113.3" skinid="ht_node" pan="-8.77" url="{node4}" distance="6.11572" description="Nos regresa a la primera imagen&#x9;" tilt="-28.45" title="imagen inicial"/>
       <hotspot id="Point02" target="" skinid="ht_image" pan="-297.18" url="" description="" tilt="1.35" title=""/>
     </hotspots>
     <media>
       <image id="Element01" fov="30.000" rotx="0.000" height="1800" width="1800" handcursor="0" pan="-94.430" roty="0.000" rotz="0.000" tilt="2.720" clickmode="0" stretch="1.000">
-        <source url="media/cara feliz.png"/>
+        <source url="media/WhatsApp Image 2023-03-08 at 11.29.37 AM.jpeg"/>
       </image>
       <lensflare id="Lensflare01" type="1" blinding="50.000" pan="-31.220" alpha="80.000" tilt="3.880" color="0xffffff"/>
       <lensflare id="Lensflare02" type="1" blinding="50.000" pan="-320.550" alpha="80.000" tilt="15.670" color="0xffffff"/>
@@ -71,7 +72,7 @@
     <soundstransition crossfade="0" enabled="1" transitiontime="2"/>
     <flyintransition speed="2.00" enabled="1"/>
     <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control rubberband="0" hideabout="0" sensitivity="8" lockedkeyboardzoom="0" invertwheel="0" contextprojections="0" speedwheel="1" contextfullscreen="1" lockedwheel="0" invertcontrol="1" dblclickfullscreen="0" contextvr="1" lockedkeyboard="0" lockedmouse="0" simulatemass="1"/>
+    <control rubberband="0" hideabout="0" sensitivity="8" lockedkeyboardzoom="0" invertwheel="0" contextprojections="1" speedwheel="1" contextfullscreen="1" lockedwheel="0" invertcontrol="1" dblclickfullscreen="0" contextvr="1" lockedkeyboard="0" lockedmouse="0" simulatemass="1"/>
   </panorama>
   <masternode>
     <userdata latitude="" datetime="" copyright="" longitude="" nodeid="master" comment="" info="" description="" source="" tags="" title="" author="" heading="0" customnodeid=""/>
