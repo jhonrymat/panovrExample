@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama appversion="6.1.14" apprev="18105" id="node1">
+  <input leveltilesize="510" levelbiashidpi="1.000" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" width="320" height="320" overlap="1" levelingroll="0" levelbias="0.400" levelingpitch="0">
+    <level width="320" height="320" preload="1" predecode="1"/>
+    <preview strip="1" color="0x808080"/>
+  </input>
+  <view fovmode="0" pannorth="0">
+    <start projection="4" fov="70" pan="0" tilt="0"/>
+    <flyin projection="9" fov="170" pan="0" tilt="-90"/>
+    <min fovpixel="2" pan="0" tilt="-90"/>
+    <max fovstereographic="270" fov="120" scaletofit="1" pan="360" tilt="90" fovfisheye="360"/>
+  </view>
+  <userdata title="THETA_PITCH=0.10 THETA_ROLL=1.09" description="" customnodeid="" author="" source="" longitude="" nodeid="node1" latitude="" copyright="" tags="Downloads" heading="0" info="" datetime="24-06-2022 11:30" comment=""/>
+  <hotspots width="180" height="20" wordwrap="1">
+    <label borderradius="1" textcolor="0x000000" width="180" height="20" bordercolor="0x000000" background="1" enabled="1" wordwrap="1" borderalpha="1" textalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" border="1"/>
+    <polystyle mode="0" handcursor="1" bordercolor="0x0000ff" borderalpha="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
+  </hotspots>
+  <media/>
+  <transition softedge="0" zoomin="0" enabled="1" zoomfov="20" blendcolor="0x000000" zoomout="0" type="crossdissolve" zoomafterinfov="90" zoomafteroutfov="20" blendtime="1" zoomspeed="2" zoomoutpause="1"/>
+  <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+  <control hideabout="0" sensitivity="8" simulatemass="1" lockedkeyboardzoom="0" lockedwheel="0" contextvr="1" contextprojections="0" lockedkeyboard="0" speedwheel="1" invertcontrol="1" rubberband="0" lockedmouse="0" invertwheel="0" dblclickfullscreen="0" contextfullscreen="1"/>
+</panorama>
